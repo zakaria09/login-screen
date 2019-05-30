@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Compiled Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <title>The Conjugatosaur</title>
+</head>
+<body>
+    <section class="container-fluid">
+        <h1 class="heading">The Conjugatosaur</h1>
+        <p class="subtext"><span>Welcome back! Please login to your account.</span></p>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="bmd-label-floating">Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <span class="bmd-help">We'll never share your email with anyone else.</span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="checkbox clearfix">
+                    <label class="float-left">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <button type="button" class="btn btn-dark float-right">Forgot Password</button>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" id="btn1" class="btn btn-outline-primary btn-lg btn-block active">Login</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="btn2" class="btn btn-outline-primary btn-lg btn-block">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <footer>
+                <p id="footer">Terms of use. Privacy policy</p>
+            </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>

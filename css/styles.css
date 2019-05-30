@@ -1,0 +1,83 @@
+section {
+    padding: 5em;
+    text-align: center;
+}
+
+/* .form-group {
+    text-align: left;
+    margin: auto;
+} */
+
+form {
+    max-width: 30em;
+    margin: auto;
+    text-align: left;
+    padding: 2em;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #43425f;
+}
+
+#btn1, #btn2 {
+    margin: 0.05em;
+    padding: 0.5em 1.8em;
+}
+
+.subtext {
+    color: #adadb3;
+    padding: 0.3em;
+}
+
+div {
+    padding: 1em;
+}
+
+#footer {
+    color: #b7b7c0;
+}
+
+/* label color */
+.form-group label {
+    color: #000;
+}
+/* label focus color */
+.form-group input:focus + label {
+    color: #6a6bf7 !important;
+}
+
+/* label color */
+.checkbox label {
+    color: #000 !important;
+}
+
+/* label underline focus color */
+.form-group input:focus {
+    border-bottom: 1px solid #6a6bf7 !important;
+    box-shadow: 0 1px 0 0 #6a6bf7 !important;
+}
+
+div .active[type=button] {
+    background-color: #6a6bf7 !important;
+    border: #6a6bf7;
+}
+
+div #btn2[type=button] {
+    color: #6a6bf7;
+    border: 1px solid #6a6bf7;
+}
+
+div .active[type=button]:hover {
+    background-color: #d8d8d8 !important;
+}
+
+@media only screen and (max-width: 680px) {
+    .heading {
+        font-size: 1.5em;
+    }
+  }
